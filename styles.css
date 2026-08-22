@@ -2,6 +2,7 @@ body {
   background-color: #171717;
   color: white;
   font-family: "poppins", sans-serif;
+  user-select: none;
 }
 
 @font-face {
@@ -10,7 +11,7 @@ body {
 }
 
 #root {
-  display: flex;
+  display: none;
   flex-direction: column;
   outline: 1px solid #ffffff22;
   align-items: center;
@@ -33,4 +34,16 @@ body {
 #page-meter {
   opacity: 0.5;
   font-style: italic;
+}
+
+#starter {
+  display: flex;
+  flex-direction: column;
+  outline: 1px solid #ffffff22;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 90vh;
+  border-radius: 10px;
+  padding: 10px;
 }
