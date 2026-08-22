@@ -1,4 +1,4 @@
-import letterJson from "./letter.json" with { type: "json" };
+import notes from "./letter.js"
 const $ = (id) => document.getElementById(id);
 const isHidden = false;
 
@@ -10,7 +10,6 @@ const pageContent = $("page-content");
 const starterPage = $("starter");
 const rootPage = $("root");
 
-const notes = letterJson.notes;
 let page = 0;
 
 pagePrev.onclick = () => updatePage(false);
