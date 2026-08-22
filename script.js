@@ -15,7 +15,7 @@ let page = 0;
 
 pagePrev.onclick = () => updatePage(false);
 pageNext.onclick = () => updatePage(true);
-starter.onclick = async () => {
+starterPage.onclick = async () => {
   const NgitiAudio = new Audio("./assets/Ngiti.mp3");
   NgitiAudio.loop = true;
 
