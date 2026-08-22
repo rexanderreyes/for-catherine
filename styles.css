@@ -1,0 +1,36 @@
+body {
+  background-color: #171717;
+  color: white;
+  font-family: "poppins", sans-serif;
+}
+
+@font-face {
+  font-family: "poppins";
+  src: url("./assets/Poppins-Regular.ttf") format("truetype");
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  outline: 1px solid #ffffff22;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  height: 90vh;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+#page-btn {
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+  width: 100%;
+  opacity: 0.5;
+  padding: 10px;
+}
+
+#page-meter {
+  opacity: 0.5;
+  font-style: italic;
+}
