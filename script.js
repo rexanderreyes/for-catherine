@@ -25,7 +25,7 @@ starterPage.onclick = async () => {
   });
   await starterAnim.finished;
 
-  starter.style.display = "none";
+  starterPage.style.display = "none";
   rootPage.style.display = "flex";
 
   const rootAnim = rootPage.animate([{ opacity: 0 }, { opacity: 1 }], {
